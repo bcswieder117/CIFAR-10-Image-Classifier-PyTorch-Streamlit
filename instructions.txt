@@ -1,0 +1,62 @@
+Atreyus.AI CIFAR-10 Classifier - Project Instructions
+=====================================================
+
+This project showcases an end-to-end machine learning pipeline using a Convolutional Neural Network (CNN)
+trained on the CIFAR-10 dataset and deployed using Streamlit. Follow the instructions below to run this project locally.
+
+-----------------------------------------------------
+1. Prerequisites
+-----------------------------------------------------
+Ensure you have Python 3.8+ and pip installed. Recommended to use a virtual environment.
+
+-----------------------------------------------------
+2. Environment Setup
+-----------------------------------------------------
+Install required packages:
+
+    pip install torch torchvision streamlit pandas matplotlib pillow
+
+-----------------------------------------------------
+3. Project Structure
+-----------------------------------------------------
+Your directory should look like this:
+
+Atreyus AI ML Project/
+├── CIFAR10 Dataset/
+│   ├── train/
+│   ├── test/
+│   └── trainLabels.csv
+├── model_code.py          # CNN model definition
+├── streamlit_app.py       # Streamlit UI
+├── cifar10_cnn.pth        # Trained model weights
+├── Atreyus AI Project.ipynb
+├── Atreyus_AI_Project_Lecture_Annotated.ipynb
+└── instructions.txt       # (this file)
+
+-----------------------------------------------------
+4. Train the Model (Optional)
+-----------------------------------------------------
+If you want to retrain the model from scratch, open and run:
+
+    Atreyus AI Project.ipynb
+
+This notebook walks through loading data, defining the model, training, and evaluating performance.
+
+-----------------------------------------------------
+5. Launch Streamlit App
+-----------------------------------------------------
+To start the web application locally, run the following:
+
+    streamlit run streamlit_app.py
+
+This will open a local browser where you can upload images and view predictions.
+
+-----------------------------------------------------
+6. Notes
+-----------------------------------------------------
+- Only accepts .png/.jpg/.jpeg image formats
+- Resizes all uploaded images to 32x32 before prediction
+- Displays top 3 predictions with class confidence scores
+
+-----------------------------------------------------
+Author: Blaine Swieder
