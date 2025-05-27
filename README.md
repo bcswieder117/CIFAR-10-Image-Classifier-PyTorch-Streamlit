@@ -71,7 +71,7 @@ Fully Connected (10 outputs) → Softmax (via CrossEntropyLoss)
 ## Notes
 
 - The dataset itself is **not required** to run the Streamlit app. The model has already been trained and is saved as `cifar10_cnn.pth`.
-- If you wish to retrain the model, download the [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html) and follow the notebook `Atreyus AI Project.ipynb`.
+- If you wish to retrain the model, download the [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html) and follow the notebook `CIFAR 10 Image Classifier.ipynb`.
 
 ---
 
