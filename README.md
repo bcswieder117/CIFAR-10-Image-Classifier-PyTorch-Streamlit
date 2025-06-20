@@ -97,7 +97,8 @@ This project demonstrates an end-to-end image classification pipeline using a cu
 
 ## Workflow Pipeline
 
-![CNN Classifier Workflow](./CNN Classifier Workflow.png)
+![CNN Classifier Workflow](./CNN%20Classifier%20Workflow.png)
+
 
 ---
 
