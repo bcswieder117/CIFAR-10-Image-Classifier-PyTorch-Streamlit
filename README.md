@@ -66,17 +66,17 @@ This project demonstrates an end-to-end image classification pipeline using a cu
 
 * **Overall Test Accuracy:** 82.90%  
 * **Training Accuracy by Epoch:**  
-    1. 52.73%  
-    2. 67.32%  
-    3. 73.44%  
-    4. 78.27%  
-    5. 82.90%  
+  1. 52.73%  
+  2. 67.32%  
+  3. 73.44%  
+  4. 78.27%  
+  5. 82.90%  
 * **Training Loss by Epoch:**  
-    1. 2054.92  
-    2. 1453.81  
-    3. 1172.51  
-    4. 962.14  
-    5. 755.43  
+  1. 2054.92  
+  2. 1453.81  
+  3. 1172.51  
+  4. 962.14  
+  5. 755.43  
 
 ---
 
@@ -98,6 +98,7 @@ This project demonstrates an end-to-end image classification pipeline using a cu
 ## Workflow Pipeline
 
 ![CNN Classifier Workflow](./CNN%20Classifier%20Workflow.png)
+
 
 
 ---
