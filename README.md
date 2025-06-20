@@ -56,7 +56,7 @@ This project demonstrates an end-to-end image classification pipeline using a cu
 * **Optimizer**: Adam (LR = 0.001)  
 * **Loss Function**: CrossEntropyLoss  
 
-![Training Console Output](./CNN%20Image%20Classifier%20Results.png)
+![Training Console Output](./CNN%20Image%20Classifer%20Results.png)
 
 ---
 
