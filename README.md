@@ -43,7 +43,7 @@ Flatten → Fully Connected (512) → ReLU → Dropout
 Fully Connected (10 outputs) → Softmax (via CrossEntropyLoss)
 ```
 
-!\[Detailed Model Architecture]\(My CNN Architecture.png)
+![Detailed Model Architecture](<My CNN Architecture.png>)
 
 ---
 
@@ -60,13 +60,13 @@ Fully Connected (10 outputs) → Softmax (via CrossEntropyLoss)
 * **Optimizer**: Adam (LR = 0.001)
 * **Loss Function**: CrossEntropyLoss
 
-!\[Training Loop Console Output]\(CNN Image Classifier Results.png)
+![Training Loop Console Output](<CNN Image Classifier Results.png>)
 
 ---
 
 ## Results
 
-!\[Training Progress and Overall Accuracy]\(CNN Classifier Results Figure.png)
+![Training Progress and Overall Accuracy](<CNN Classifier Results Figure.png>)
 
 * **Overall Test Accuracy**: **82.90%**
 * **Training Accuracy by Epoch**:
@@ -90,9 +90,9 @@ Fully Connected (10 outputs) → Softmax (via CrossEntropyLoss)
 
 Below are random test samples with top-3 predicted classes and confidence scores.
 
-!\[Top-3 Predictions (CLI)]\(CNN Show Top3 Predictions.png)
+![Top-3 Predictions (CLI)](<CNN Show Top3 Predictions.png>)
 
-!\[Sample Predictions Gallery]\(CNN Images\_Output.png)
+![Sample Predictions Gallery](<CNN Images_Output.png>)
 
 | Image       | 1st Prediction | 2nd Prediction | 3rd Prediction |
 | ----------- | -------------- | -------------- | -------------- |
@@ -108,7 +108,7 @@ Below are random test samples with top-3 predicted classes and confidence scores
 
 A high-level overview of the training and deployment pipeline:
 
-!\[End-to-End Workflow]\(CNN Classifier Workflow\.png)
+![End-to-End Workflow](<CNN Classifier Workflow.png>)
 
 ---
 
@@ -116,7 +116,7 @@ A high-level overview of the training and deployment pipeline:
 
 The interactive web app automatically resizes user uploads to 32×32 and displays top-3 predictions.
 
-| !\[Streamlit Home Screen]\(Streamlit Ex1.png) | !\[Streamlit Prediction Result]\(Streamlit Ex2.png) |
+| ![Streamlit Home Screen](<Streamlit Ex1.png>) | ![Streamlit Prediction Result](<Streamlit Ex2.png>) |
 | :-------------------------------------------: | :-------------------------------------------------: |
 |                  Home Screen                  |                  Prediction Result                  |
 
