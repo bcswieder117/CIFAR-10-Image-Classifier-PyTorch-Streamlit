@@ -43,7 +43,9 @@ Flatten → Fully Connected (512) → ReLU → Dropout
 Fully Connected (10 outputs) → Softmax (via CrossEntropyLoss)
 ```
 
-![Detailed Model Architecture](<My CNN Architecture.png>)
+<p align="center">
+  <img src="CNN Classifier Workflow.png" alt="Workflow Diagram" width="600" />
+</p>
 
 ---
 
@@ -60,13 +62,17 @@ Fully Connected (10 outputs) → Softmax (via CrossEntropyLoss)
 * **Optimizer**: Adam (LR = 0.001)
 * **Loss Function**: CrossEntropyLoss
 
-![Training Loop Console Output](<CNN Image Classifier Results.png>)
+<p align="center">
+  <img src="CNN Image Classifier Results.png" alt="Training Loop Console Output" width="600" />
+</p>
 
 ---
 
 ## Results
 
-![Training Progress and Overall Accuracy](<CNN Classifier Results Figure.png>)
+<p align="center">
+  <img src="CNN Classifier Results Figure.png" alt="Training Progress and Overall Accuracy" width="600" />
+</p>
 
 * **Overall Test Accuracy**: **82.90%**
 * **Training Accuracy by Epoch**:
@@ -90,9 +96,13 @@ Fully Connected (10 outputs) → Softmax (via CrossEntropyLoss)
 
 Below are random test samples with top-3 predicted classes and confidence scores.
 
-![Top-3 Predictions (CLI)](<CNN Show Top3 Predictions.png>)
+<p align="center">
+  <img src="CNN Show Top3 Predictions.png" alt="CLI Top-3 Predictions" width="600" />
+</p>
 
-![Sample Predictions Gallery](<CNN Images_Output.png>)
+<p align="center">
+  <img src="CNN Images_Output.png" alt="Sample Predictions Gallery" width="600" />
+</p>
 
 | Image       | 1st Prediction | 2nd Prediction | 3rd Prediction |
 | ----------- | -------------- | -------------- | -------------- |
@@ -104,21 +114,30 @@ Below are random test samples with top-3 predicted classes and confidence scores
 
 ---
 
-## Workflow
+## Workflow Diagram
 
-A high-level overview of the training and deployment pipeline:
+Here's the end-to-end pipeline overview:
 
-![End-to-End Workflow](<CNN Classifier Workflow.png>)
+<p align="center">
+  <img src="My CNN Architecture.png" alt="Detailed Model Architecture" width="600" />
+</p>
 
 ---
 
 ## Streamlit App
 
-The interactive web app automatically resizes user uploads to 32×32 and displays top-3 predictions.
+The interactive web app automatically resizes uploads to 32×32 and displays top-3 predictions:
 
-| ![Streamlit Home Screen](<Streamlit Ex1.png>) | ![Streamlit Prediction Result](<Streamlit Ex2.png>) |
-| :-------------------------------------------: | :-------------------------------------------------: |
-|                  Home Screen                  |                  Prediction Result                  |
+<table>
+  <tr>
+    <td align="center"><img src="Streamlit Ex1.png" alt="Streamlit Home Screen" width="300" /></td>
+    <td align="center"><img src="Streamlit Ex2.png" alt="Streamlit Prediction Result" width="300" /></td>
+  </tr>
+  <tr>
+    <td align="center">Home Screen</td>
+    <td align="center">Prediction Result</td>
+  </tr>
+</table>
 
 ---
 
@@ -130,13 +149,11 @@ The interactive web app automatically resizes user uploads to 32×32 and display
    git clone https://github.com/bcswieder117/CIFAR-10-Image-Classifier-PyTorch-Streamlit.git
    cd CIFAR-10-Image-Classifier-PyTorch-Streamlit
    ```
-
 2. Install dependencies:
 
    ```bash
    pip install -r requirements.txt
    ```
-
 3. Run the Streamlit app:
 
    ```bash
@@ -158,8 +175,8 @@ The interactive web app automatically resizes user uploads to 32×32 and display
 
 ## Notes
 
-* The dataset itself is **not required** to run the Streamlit app. The model has already been trained and saved as `cifar10_cnn.pth`.
-* To retrain, download the [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html) and follow `Atreyus AI Project.ipynb`.
+* The dataset itself is **not required** to run the Streamlit app. The model has already been trained (`cifar10_cnn.pth`).
+* To retrain, download the [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html) and follow the notebook.
 
 ---
 
